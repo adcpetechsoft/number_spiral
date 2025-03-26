@@ -10,8 +10,6 @@
 
 // ---------------------------------
 // Preprocessor Declaration
-
-
 #define NUM_MAX 99
 #define XMAX 10
 #define YMAX 10
@@ -23,7 +21,6 @@
 // Progran  Entry Point
 // ---------------------------------
 // *********************************
-
 int main(int argc, char *argv[])
 {
 
@@ -40,6 +37,8 @@ int main(int argc, char *argv[])
     int jmin;
     int jmax;
 
+
+
     // ***********************
     // Actual Procedure
 
@@ -52,7 +51,6 @@ int main(int argc, char *argv[])
     jmax=XMAX-1;
 
     // initialization of number display
-
     for(i=0; i<=9; i++)
     {
         for(j=0; j<=9; j++)
@@ -62,7 +60,6 @@ int main(int argc, char *argv[])
     };
 
     // placing number for display
-
     while(xdis<=NUM_MAX)
     {
         // to right
@@ -109,13 +106,10 @@ int main(int argc, char *argv[])
         };
 
         jmin++;
-
-
-        
+ 
     };
 
     // Display the number on console screen
-
     for(i=0; i<10; i++)
     {
         for(j=0; j<10; j++)
